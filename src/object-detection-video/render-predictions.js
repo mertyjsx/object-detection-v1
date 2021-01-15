@@ -5,7 +5,7 @@ const getLabelText = (prediction) => {
 
 export const renderPredictions = (ctx, predictions,processTask) => {
  
-  console.log("ssd 200 dataset predictions=> ",predictions)
+  console.log("r-cnn 200 images 1k step predictions=> ",predictions)
   // Font options.
   const font = `${16}px 'ibm-plex-sans', Helvetica Neue, Arial, sans-serif`
   ctx.setFont(font)
