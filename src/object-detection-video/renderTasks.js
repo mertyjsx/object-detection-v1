@@ -29,7 +29,7 @@ const App = ({tasks}) => {
   console.log(tasks)
   return (
     <div className="Container">
-      <h2>To prove that you are not a robot, make the hand signals </h2>
+   
       {check() && (
         <div className="column">
           <h1> Done ! You are not a robot</h1>
