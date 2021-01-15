@@ -56,7 +56,7 @@ const Home1 = ({click}) =>{
        
         <Grid item className='itemler' justify='center' >
         <motion.li  variants={item} >
-            <h1 class="deneme2" >SSD 200 images <br/>1000 test</h1>
+            <h1 class="deneme2" >SSD 200 images <br/>1000 step</h1>
             </motion.li>
             <motion.li  variants={item} >
             <p>Check if people entering your site are using scripts, Complete tasks with object detection
