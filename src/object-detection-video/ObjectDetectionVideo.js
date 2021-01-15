@@ -9,7 +9,7 @@ import {up} from "../redux/user/user.actions"
 
 const ObjectDetectionVideo = React.memo(
   ({ model, onPrediction, fit, mirrored, render,update }) => {
-    console.log("asdasd")
+   
     const videoRef = useRef()
     const canvasRef = useRef()
 
